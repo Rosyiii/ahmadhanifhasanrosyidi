@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../img/background1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+hr {
+    color: #fff;
+}
+
+.nav a{
+    font-size: 16px;
+    color: #000;
+    flex-wrap: wrap;
+}
+
+#Home p{
+    font-style: italic;
+}
+
+.banner{
+    font-weight: bold;
+}
+
+.Logo {
+    display: inline-block;
+    border-radius: 200%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: white;
+    background-color: #dc3545;
+}
+
+.pendidikan img{
+    max-width: 25px;
+    max-height: 25px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.pendidikan .card{
+    background-color: unset;
+    color: white;
+    border: none;
+}
+
+.panel{
+    border-style: solid; 
+    border-radius: 5px; 
+    border-color:white;
+}
+
+.panel ul li{
+    list-style: none;
+}
+
+.Logo i {
+    position: relative;
+    top: 35px;
+}
+
+#Tentang p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+#Project p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.carousel-item img{
+    margin: auto;
+}
